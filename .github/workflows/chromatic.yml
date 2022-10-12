@@ -1,0 +1,15 @@
+name: 'Chromatic'
+
+on:
+  push:
+    branches: [ master ]
+  pull request: 
+    branches: [ master ]
+
+  jobs:
+    chromatic-deployment:
+
+      runs-on: ubuntu-latest
+
+      steps:
+        - uses: actions/checkout
