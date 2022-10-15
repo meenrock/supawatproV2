@@ -1,16 +1,10 @@
-import Head from 'next/head'
-import styles from '../styles/wavy.component.css'
+import '../../styles/wavy.css'
 
 const wavyBg = () => {
-    <div className='ocean'>
-        <div className='wave'></div>
-        <div className='wave'></div>
+    <div className={styles.ocean}>
+        <div className={styles.wave}></div>
+        <div className={styles.wave}></div>
     </div>
 }
 
-export default function wavyBg() {
-    return (
-        <>
-        </>
-    )
-}
+export default wavyBg()
