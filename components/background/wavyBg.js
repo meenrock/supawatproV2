@@ -1,4 +1,4 @@
-import '../../styles/wavy.css'
+import styles from '../../styles/wavy.css'
 
 const wavyBg = () => {
     <div className={styles.ocean}>
