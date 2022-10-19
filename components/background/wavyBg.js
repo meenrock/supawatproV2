@@ -1,10 +1,10 @@
-import styles from '../../styles/wavy.css'
+import styles from '../../styles/wavy.module.css'
 
-const wavyBg = () => {
+const WavyBg = () => {
     <div className={styles.ocean}>
         <div className={styles.wave}></div>
         <div className={styles.wave}></div>
     </div>
 }
 
-export default wavyBg()
+export default WavyBg()
