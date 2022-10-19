@@ -1,0 +1,140 @@
+
+
+.second {
+	width: 450px;
+	height: 600px;
+	max-width: 80%;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	justify-content: center;
+	background-image: url(bg/mypic/trivialfacts.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.contact {
+	width: 450px;
+	height: 600px;
+	resize: both;
+	position: relative;
+	background-size: 120%;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	justify-content: center;
+	background-image: url(bg/mypic/aboutme.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.landing .row {
+	display: flex;
+	align-items: center;
+	min-height: 500px;
+	justify-content: space-evenly;
+}
+
+.first {
+	width: 500px;
+	min-height: 500px;
+	display: flex;
+	align-items: flex-start;
+	margin: 10px;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-size: cover;
+	text-align: left;
+	background-position: center;
+	font-family: 'Sora';
+    font-size: 20px;
+}
+
+.logo {
+	color: var(--light);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.first h2 {
+	color: var(--light);
+	margin: 0 30px;
+	font-size: 17px;
+	padding: 30px 0;
+}
+
+	.first h2:hover {
+		color: var(--green);
+		transition: 0.2s linear;
+		transform: scale(1.1);
+	}
+
+.btn:hover {
+	background-color: var(--green);
+	transition: 500ms ease-in-out;
+	transform: scale(1.2);
+}
+
+.first h1 {
+	color: var(--light);
+	font-weight: bold;
+	padding: 0;
+	margin: 30px;
+	font-size: 50px;
+}
+
+.landing {
+	width: 100%;
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+	.landing {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.first {
+		width: 500px;
+		display: flex;
+		align-items: flex-start;
+		margin: 10px;
+		flex-direction: column;
+		justify-content: flex-start;
+		background-size: cover;
+		text-align: left;
+		background-position: center;
+		font-family: 'Sora';
+		font-size: 20px;
+		z-index: 10;
+		
+	}
+	.second {
+		width: 450px;
+		height: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/mypic/trivialfacts.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}

@@ -1,0 +1,302 @@
+
+
+.logo {
+	color: black;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-family: 'Cabin', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+	.landing .row {
+		display: flex;
+		align-items: flex-start;
+		min-height: 500px;
+		justify-content: space-evenly;
+	}
+
+    .first h2 {
+		color: black;
+		margin: 0 10px;
+		font-size: 12px;
+		padding: 100px 0;
+	}
+	
+		.first h2:hover {
+			color: peru;
+			transition: 0.2s linear;
+			transform: scale(1.1);
+		}
+	
+	.first h1 {
+		color: black;
+		font-weight: bold;
+		padding: 0;
+		margin: 10px;
+		font-size: 30px;
+
+	}
+
+	.first {
+		width: 500px;
+		min-height: 500px;
+		display: flex;
+		align-items: flex-start;
+		margin: 10px;
+		flex-direction: column;
+		justify-content: flex-start;
+		background-size: cover;
+		text-align: left;
+		background-position: center;
+		font-family: 'Sora';
+		font-size: 14px;
+	}
+
+	.mernstack {
+		width: 600px;
+		max-width: 80%;
+		min-height: 340px;
+		display: flex;
+		align-items: flex-start;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/weather.PNG);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 150px;
+	}
+	
+	.python {
+		width: 600px;
+		max-width: 80%;
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		margin-left: 1%;
+		justify-content: center;
+		background-image: url(bg/work/python.jpg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 150px;
+	}
+	
+	.server {
+		width: 600px;
+		max-width: 80%;
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/pve.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 150px;
+	}
+	
+	.edipay {
+		width: 600px;
+		max-width: 80%;
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 150px;
+	}
+	
+	.pricecal {
+		width: 600px;
+		max-width: 80%;
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw2.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 150px;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+
+	.landing .row {
+		display: flex;
+		align-items: center;
+		min-height: 500px;
+		justify-content: space-evenly;
+	}
+
+	.first h2 {
+		color: black;
+		margin: 0 30px;
+		font-size: 17px;
+		padding: 100px 0;
+	}
+	
+		.first h2:hover {
+			color: peru;
+			transition: 0.2s linear;
+			transform: scale(1.1);
+		}
+	
+	.first h1 {
+		color: black;
+		font-weight: bold;
+		padding: 0;
+		margin: 30px;
+		font-size: 50px;
+	}
+
+	.first {
+		width: 500px;
+		min-height: 500px;
+		display: flex;
+		align-items: flex-start;
+		margin: 10px;
+		flex-direction: column;
+		justify-content: flex-start;
+		background-size: cover;
+		text-align: left;
+		background-position: center;
+		font-family: 'Sora';
+		font-size: 20px;
+	}
+
+	.mernstack {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/weather.PNG);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.python {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin-left: 1%;
+		justify-content: center;
+		background-image: url(bg/work/python.jpg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 50px;
+	}
+	
+	.server {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/pve.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 430px;
+	}
+	
+	.edipay {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.pricecal {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw2.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 400px;
+	}
+
+}
+
+
+
+.landing {
+	width: 100%;
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: 2px solid black;
+	margin: 0 15px;
+	color: black;
+	border-radius: 500px;
+	font-family: 'Sora';
+    font-size: 16px;
+}
+
+.btn:hover {
+	background-color: #997a8d;
+	transition: 500ms ease-in-out;
+	transform: scale(1.1);
+	color: whitesmoke;
+	font-family: 'Sora';
+    font-size: 16px;
+}
+
+.buttons {
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
