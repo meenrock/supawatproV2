@@ -1,10 +1,10 @@
 import styles from '../../styles/wavy.module.css'
 
 const WavyBg = () => {
-    <div className={styles.ocean}>
+    return (<div className={styles.ocean}>
         <div className={styles.wave}></div>
         <div className={styles.wave}></div>
-    </div>
+    </div>)
 }
 
 export default WavyBg()

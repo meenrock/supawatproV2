@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import WavyBg from '../components/background/WavyBg'
 import styles from '../styles/Home.module.css'
 
 export default function Contact() {
@@ -14,6 +15,7 @@ export default function Contact() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <WavyBg />
         </h1>
 
         <p className={styles.description}>
