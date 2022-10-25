@@ -16,6 +16,9 @@ export default function Home() {
         <WavyBg />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <p className={styles.description}>
+          Watch the Ocean Waves nonstop{' '}
+        </p>
         </h1>
 
         <p className={styles.description}>
