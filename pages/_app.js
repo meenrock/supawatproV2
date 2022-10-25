@@ -1,12 +1,14 @@
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import '../components/header/Header'
+// import '../styles/wavy.module.css'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import '../components/header/Header'
+import WavyBg from '../components/background/wavyBg'
+import Header from '../components/header/Header'
 
-function MyApp({ Component, pageProps }) {
-  return <>
-    <Header/>
-    <Component {...pageProps} />
-  </>
+const MyApp=({Component, pageProps})=> {
+  return(<>
+    <Component {...pageProps}/>
+  </>)
 }
 
 export default MyApp

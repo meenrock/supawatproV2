@@ -13,6 +13,7 @@ export default function Contact() {
       </Head>
 
       <main className={styles.main}>
+        <WavyBg />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
