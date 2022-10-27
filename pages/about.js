@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import WavyBg from '../components/background/wavyBg'
-import Header from '../components/header/Header'
+import Navbar from '../components/header/Navbar'
 
 export default function About() {
   return (
@@ -14,9 +13,7 @@ export default function About() {
         <styles></styles>
       </Head>
 
-
       <main className={styles.main}>
-        <WavyBg />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
