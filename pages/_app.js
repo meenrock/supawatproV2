@@ -1,9 +1,20 @@
 import '../styles/globals.css'
-// import '../styles/wavy.module.css'
-// import 'bootstrap/dist/css/bootstrap.css'
-// import '../components/header/Header'
+import { useEffect } from "react";
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
+
 
 const MyApp=({Component, pageProps})=> {
+
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
+
   return(<>
         <Component {...pageProps} />
   </>)
